@@ -67,7 +67,7 @@ char *str = va_arg(types, char *);
 UNUSED(flags);
 UNUSED(width);
 UNUSED(precision);
-uNUSED(size);
+UNUSED(size);
 if (str == NULL)
 return (write(1, "(null)", 6));
 while (str[i] != '\0')
